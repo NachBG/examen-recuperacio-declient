@@ -1,0 +1,49 @@
+main {
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+label {
+    text-align: left;
+    font-family: sans-serif;
+    color: gray;
+}
+
+input {
+    width: 97%;
+    font-size: 1.2em;
+    padding: .2em;
+    margin-bottom: .5em;
+    border-radius: 5px;
+    border: 1px solid red;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    font-size: 1.5em;
+    border: none;
+    background-color: gray;
+    padding: .4em;
+    color: white;
+    border-radius: 10px;
+}
+
+button:disabled {
+    background-color: lightgray;
+    color: white;
+}
+
+
+/* Capa que pone borde verde a los controles
+cuando su contenido es válido */
+
+.verde {
+    border-color: green;
+}
